@@ -111,7 +111,6 @@ public class Principal {
 //                        ": " + e.getTitulo() +
 //                        " Data lançamento: " + e.getDataLancamento().format(formatador)
 //                ));
-//
 
         Map<Integer, Double> avaliaçoesPorTemporada = episodios.stream()
                 .filter(episodio -> episodio.getAvaliacao() > 0.0)
